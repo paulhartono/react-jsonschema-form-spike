@@ -1,0 +1,23 @@
+{
+  "firstName": {
+    "ui:autofocus": true,
+    "ui:emptyValue": "",
+    "ui:placeholder": "ui:emptyValue causes this field to always be valid despite being required"
+  },
+  "lastName": {
+    "ui:autocomplete": "given-name",
+    "ui:enableMarkdownInDescription": true
+  },
+
+  "bio": {
+    "ui:widget": "textarea"
+  },
+  "password": {
+    "ui:widget": "password"
+  },
+  "telephone": {
+    "ui:options": {
+      "inputType": "tel"
+    }
+  }
+}

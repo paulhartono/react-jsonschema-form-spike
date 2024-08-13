@@ -1,0 +1,20 @@
+{
+  "evaluation": {
+    "competency": {
+      "ui:widget": "select"
+    },
+    "notes": {
+      "ui:widget": "textarea"
+    }
+  },
+  "observation": {
+    "topic": {
+      "ui:widget": "select"
+    }
+  },
+  "supervisor": {
+    "scale": {
+      "ui:widget": "radio"
+    }
+  }
+}
